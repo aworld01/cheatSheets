@@ -1,0 +1,18 @@
+1. Win+R [regedit]: to open "Registry Editor".
+
+2. Go to "HKEY_CLASSES_ROOT\Directory\background\shell"
+    writeClick\New\Key\Rename as <appName>
+
+3. writeClick at <appName>\New\String Value\Rename as "Icon"
+
+4. Win+S [notepad]
+
+5. rightClick on "Notepad" and go to "Open file location".
+
+6. again rightClick on "Notepad" and go to "Open file location".
+
+7. Shift+rightClick on "notepad.exe" then click at "Copy as path".
+
+8. doubleClick at "Icon" and under "Value data:" paste path of your app using "Ctrl+V".
+
+9. 

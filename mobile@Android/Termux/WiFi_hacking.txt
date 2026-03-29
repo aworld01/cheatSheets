@@ -11,6 +11,8 @@ Managed Mode: Normal Mode
 Monitor Mode: Extra Featurs
 
 
+
+
 sudo su: to root
 ifconfig: check network configuration.
     eth0 = ethernet 0
