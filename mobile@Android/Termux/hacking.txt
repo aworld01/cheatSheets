@@ -1,4 +1,0 @@
-ESSID: Hotspot name
-BSSID: MAC address
-Station ID: User MAC Address
-Handshake: Sending password to check
