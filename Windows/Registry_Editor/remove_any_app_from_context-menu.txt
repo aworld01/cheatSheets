@@ -1,0 +1,12 @@
+1. Win+R [regedit]: to open "Registry Editor".
+
+2.
+  Go to "HKEY_CLASSES_ROOT\Directory\background\shell\app-name-folder": to right-click in any folder
+  Go to "HKEY_CLASSES_ROOT\Directory\shell\app-name-folder": to right-click at any folder
+  Go to "HKEY_CLASSES_ROOT\*\shell\app-name-folder": right-click at any files.
+
+   
+3. write-click at app-name-folder\Delete
+
+4. Open "Command Prompt" as "Run as Administrator" and fire the command below:
+    taskkill /f /im explorer.exe & start explorer.exe

@@ -1,18 +1,26 @@
 1. Win+R [regedit]: to open "Registry Editor".
 
 2. Go to "HKEY_CLASSES_ROOT\Directory\background\shell"
-    writeClick\New\Key\Rename as <appName>
+    
+3. write-click at shell\New\Key\rename as <appName>
 
-3. writeClick at <appName>\New\String Value\Rename as "Icon"
+3. write-click at <appName>\New\String Value\rename as "Icon"
 
 4. Win+S [notepad]
 
-5. rightClick on "Notepad" and go to "Open file location".
+5. right-click on "Notepad" and go to "Open file location".
 
-6. again rightClick on "Notepad" and go to "Open file location".
+6. again right-click on "Notepad" and go to "Open file location".
 
-7. Shift+rightClick on "notepad.exe" then click at "Copy as path".
+7. Shift+right-click on "notepad.exe" then click at "Copy as path".
 
-8. doubleClick at "Icon" and under "Value data:" paste path of your app using "Ctrl+V".
+8. double-click at "Icon" and under "Value data:" paste path of your app using "Ctrl+V".
 
-9. 
+9. right-click on <Notepad>\New\Key\rename as "command"
+
+10. In the right pane, double-click the (Default) value.
+
+11. In "Value data:" box, paste the full path to the application's executable (.exe).
+
+12. Open "Command Prompt" as "Run as Administrator" and fire the command below:
+    taskkill /f /im explorer.exe & start explorer.exe
