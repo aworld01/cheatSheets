@@ -13,3 +13,5 @@ chkdsk f C: => Check disk for errors.
 chkdsk /r X => to repair corrupted memory (X: is memory drive)
 
 cleanmgr => to run "Disk Cleanup Manager"
+
+Win+R [sysdm.cpl ,4]: create restore point.

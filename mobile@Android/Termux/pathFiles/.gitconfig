@@ -14,7 +14,7 @@
         co = commit
         cm = commit -m
 	pl = pull origin main
-        ps = push origin main
+    ps = push origin main
 	l1 = log --oneline
 	lo = log
 [core]
