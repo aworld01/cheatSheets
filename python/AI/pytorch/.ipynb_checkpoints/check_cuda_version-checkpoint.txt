@@ -1,3 +1,0 @@
-open cmd and fire=> nvidia-smi
-
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121: to install pytorch gpu version
