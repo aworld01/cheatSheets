@@ -1,3 +1,10 @@
+AH: Ampere Hour
+Series connection: Increased Voltage.
+Parallel connection: Increased Ampere.
+
+
+
+
 Lithium Battery Cell Company Name:
 ============================
 EVE
