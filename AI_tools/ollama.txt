@@ -1,0 +1,3 @@
+ollama list: check downloaded models.
+ollama run mistral:latest: to run and download model.
+ollama run llama2:latest: to run and download.

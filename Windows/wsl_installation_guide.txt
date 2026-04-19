@@ -1,11 +1,11 @@
 wsl --install: Install WSL.
 
-wsl: switch into default distribution.
+wsl --status: Check status.
 
 wsl -v: check version
-wls --version: check version
 
-wsl --status: Check status.
+wsl: switch into default distribution.
+wls --version: check version
 
 shutdown -r: to restart the computer
 
