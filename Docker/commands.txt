@@ -1,0 +1,51 @@
+localhost:9000
+docker.com
+hub.docker.com
+
+Ctrl+D: stop a container.
+
+docker -v: check version.
+
+
+
+docker image
+-------------
+docker images: list available images.
+
+docker image ls: list available images.
+
+docker rmi <image>: remove image.
+
+
+
+docker run <image>: create a container.
+
+docker run -it <image>: create a container or download image if not available.
+
+docker run -it --name <Name> <image>: create a container with desired name.
+
+
+
+docker container
+----------------
+docker container ls: list running containers.
+
+docker ps: list running container.
+
+docker container ls -a: list all available containers.
+
+docker ps -a: list all available containers.
+
+docker start <containerName/id>: start an existing container.
+
+docker stop <containerName/id>: stop running container.
+
+docker exec <container> ls: get container output to external terminal.
+
+docker exec -it <containerName/id> bash: enter any container.
+
+docker run -it -p <machin-port> <container-port> <image>: port mapping.
+
+docker rm <container>: remove container.
+
+
