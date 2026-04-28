@@ -24,3 +24,16 @@ Cells: 144 cells
 39.5 Inch = 1 Meter
 90.06 Inch = 39.5 * 2.28
 7.505 Feet = 90.06 / 12
+
+
+
+
+Brand: Waaree
+Volt: 29.9 volts
+VOC: 
+Amp: 16.17A
+Watt: 700 Watts
+Weight: 39 Kilograms
+Dimension: 130L * 3.5W * 239H Centimeters
+Technology: Mono PERC N-Type Bifacial
+Cells: x cells

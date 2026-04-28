@@ -1,0 +1,15 @@
+docker images: list available images.
+
+docker ps: list running container.
+
+docker ps -a: list all available containers.
+
+docker start <containerName/id>: start an existing container.
+
+docker exec -it <container-id> /bin/bash: to run additional commands in already running container.
+
+docker exec -it <container-id> bash: to run additional commands in already running container.
+
+docker stop <containerName/id>: stop running container.
+
+docker rmi <image>: remove image.
