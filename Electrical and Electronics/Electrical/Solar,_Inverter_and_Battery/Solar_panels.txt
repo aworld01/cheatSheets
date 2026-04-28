@@ -30,10 +30,11 @@ Cells: 144 cells
 
 Brand: Waaree
 Volt: 29.9 volts
-VOC: 
+VOC: 43.70
 Amp: 16.17A
 Watt: 700 Watts
 Weight: 39 Kilograms
+Dimension: 7.84'L*4.27'W
 Dimension: 130L * 3.5W * 239H Centimeters
 Technology: Mono PERC N-Type Bifacial
 Cells: x cells
