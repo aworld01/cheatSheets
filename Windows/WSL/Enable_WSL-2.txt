@@ -1,0 +1,27 @@
+1. Win + S [Windows Features]
+2. Open "Turn Windows features on or off"
+
+Note: Ensure you can see both "Windows Subsystem for Linux" and "Virtual Machine Platform"
+
+3. Check "Windows Subsystem for Linux"
+4. Check "Virtual Machine Platform"
+5. Click "OK" allow Window to apply changes.
+6. Restart PC.
+7. Open Command Prompt and and run:
+    wsl --install: to install WSL.
+    wsl --set-default-version 2: to set WSL2 as default version.
+    wsl -v: to check version
+    wsl --update: to update
+
+
+
+INSTALL DOCKER IN WSL2
+----------------------
+Open "Command Prompt" and run:
+    wsl: to run "WSL"
+    sudo apt update: to update
+    sudo apt install docker.io: to install docker.
+    sudo service docker start: to start docker.
+    sudo usermod -aG docker $USER: allow running docker without sudo.
+    wsl --shutdown: restart docker.
+    docker run hello-world: to check.

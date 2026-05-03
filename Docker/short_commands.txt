@@ -13,3 +13,7 @@ docker exec -it <container-id> bash: to run additional commands in already runni
 docker stop <containerName/id>: stop running container.
 
 docker rmi <image>: remove image.
+
+docker save -o myimage.tar image:latest = save image into pc.
+
+docker load -i myimage.tar = load image into pc.
