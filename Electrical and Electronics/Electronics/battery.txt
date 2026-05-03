@@ -59,3 +59,10 @@ Items requered in lithium battery build:
 
 
 New Lithium cell size: 4680
+
+
+
+Model: 18650
+Weight: 45-48 gram
+IR Value: 15-20 mili ohm
+Maximum: 3500 mAh
