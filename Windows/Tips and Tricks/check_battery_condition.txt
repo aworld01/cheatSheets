@@ -1,0 +1,2 @@
+CMD:
+   powercfg/batteryreport

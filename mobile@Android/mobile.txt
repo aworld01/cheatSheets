@@ -1,0 +1,7 @@
+Network: 5G
+Processor: Snapdragon 7+ Gen3
+RAM: DDR4
+Display: mOLED (120Hz)
+Battery: 6000 mAh
+Charger: 60W
+Camera: Telephoto lens

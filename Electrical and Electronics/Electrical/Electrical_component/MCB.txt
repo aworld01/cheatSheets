@@ -4,7 +4,7 @@ Wide: 18mm per pole
 Height: 83-85
 Depth: 67-79
 
-MCB Capacity size: 6A, 10A, 16A, 20A, 25A, 32A, 40A, 50A, 63A
+MCB Capacity size: 1A, 2A, 4A, 6A, 10A, 16A, 20A, 25A, 32A, 40A, 50A, 63A, 100A, 125A
 
 
 DIN rail
