@@ -1,0 +1,80 @@
+sudo apt update && sudo apt upgrade -y: update and upgrade kali-Linux
+
+sudo apt install kali-win-kex -y: Install the Kali Dektop (Win-KeX). This installs the full XFCE Desktop, VNC/RDP backend, and GUI Launcher.
+
+
+Launch the Kali Desktop
+1.
+kex --win -s: Windows Mode (Normal desktop windows)
+
+2.
+kex --esm --ip -s: Enhanced Session Mode (BEST-full RDP desktop, audio, clipboard)
+
+3.
+kex --sl -s: Seamless Mode (Kali apps appear on Windows desktop). This gives you the smoother GUI experience.
+
+
+sudo apt install kali-linux-large: Install Full Kali Tools
+
+
+
+
+1. XFCE Desktop (Default Kali Desktop)
+XFCE is lightweight, fast, and the official Kali default.
+
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-bash xfce4 xfce4-places-plugin xfce4-goodies
+
+
+2. GNOME Desktop
+Modern, polished, but heavier
+
+sudo apt update
+sudo apt install gnome-core kali-defaults kali-root-login desktop-bash
+
+
+3. KDE Plasma Desktop
+Beautiful, Customizabel, Windows-like.
+
+Minimal KDE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-bash kde-plasma-desktop
+
+Standard KDE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-bash kde-standard
+
+Full KDE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-bash kde-full
+
+4. LXDE Desktop
+Very lightweight, good for old hardware.
+
+sudo apt update
+sudo apt install lxde-core lxde kali-defaults kali-root-login desktop-bash
+
+
+5. Cinnamon Desktop
+Linux Mint-style, clean and modern
+
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-base cinnamon
+
+
+6. MATE Desktop
+GNOME 2-style, lightweight and stable.
+
+Basic MATE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-base mate-core
+
+Standard MATE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-base mate-desktop-environment
+
+
+Full MATE:
+sudo apt update
+sudo apt install kali-defaults kali-root-login desktop-base mate-desktop-environment-extra
+
