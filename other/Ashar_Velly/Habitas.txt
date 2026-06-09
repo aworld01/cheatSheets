@@ -1,0 +1,25 @@
+Joining date: 13/03/2026
+
+Clorin (CLb): Tablet = DPD No.1
+PH: Tablet = PHENOL
+
+Room water
+----------
+PH: 0.6-0.8
+CLb: 0.1-0.4
+
+
+Pool water
+----------
+PH: 7.6-7.8
+CLb: 1.0-2.8
+
+
+
+FACP locations:
+---------------
+BOH/CCTV Room, SS1, SS3, SS5, SS7, SS9, TAMA/Electrical Room
+
+MFACP locations:
+----------------
+BOH, SS1, SS3
