@@ -8,10 +8,38 @@ Note: Ensure you can see both "Windows Subsystem for Linux" and "Virtual Machine
 5. Click "OK" allow Window to apply changes.
 6. Restart PC.
 7. Open Command Prompt and and run:
+    wsl: start with default distribution.
+    wsl --status: Check status.
     wsl --install: to install WSL.
-    wsl --set-default-version 2: to set WSL2 as default version.
     wsl -v: to check version
+    wsl --set-default-version 1: switch from wsl2 into wsl1
+    wsl --set-default-version 2: to set WSL2 as default version.
     wsl --update: to update
+    wsl -l: List installed Linux distributions.
+    wsl -l -v: check detailed list of installed distributions.
+    wsl -l -o:  List available distro to download and install.
+    wsl --install -d kali-Linux: to install additional Linux distributions after the initial install.
+    wsl -d kali-linux -u root: to login with root user.
+    wsl -d kali-linux -u thor: to login with thor user.
+    wsl config --default-user root: to make "root" as default user.
+    wsl -d ubuntu -u geek: to switch into ubuntu distribution.
+    wsl -t <distribution>: Stop a specific running distribution.
+    wsl --unregister <distribution>: Uninstall distribution.
+    wsl --setdefault <distribution name>: to set default distribution.
+    wsl -d <distribution name> -u <user name>: Run a specific Linux distribution from CMD or PowerShell
+    wsl --shutdown: Shutdown all running distributions
+    wsl --export <distribution> <backupFileName.tar>: Backup WSL
+    wsl --import-in-place <distribution> <fileName>: Restore WSL
+    wsl ip a: to check ip address
+    wsl hostname: to check default distribution's hostname
+
+
+shutdown -r: to restart the computer
+kali-tweaks: to select "Metapackages" => select "top10"
+
+sudo apt install kali-win-kex: to install GUI (Graphical User Interface)
+kex [password]
+kex: to start kali GUI
 
 
 
@@ -25,3 +53,40 @@ Open "Command Prompt" and run:
     sudo usermod -aG docker $USER: allow running docker without sudo.
     wsl --shutdown: restart docker.
     docker run hello-world: to check.
+
+
+
+
+
+LINUX COMMANDS
+==============
+
+Set root password
+=================
+passwd root:
+    New password:
+    Retype new password:
+    passwd: password update successfully.
+
+ cat /etc/os-release: to check Linux version.
+
+ ip a: check ip
+
+ su
+ Password: login to root user
+
+ hostname: check hostname
+
+
+ Change hostname
+ ===============
+ sudo nano /etc/wsl.conf
+
+ [boot]
+ systemd=true
+
+ [network]
+hostname=ubuntu
+generateHosts=false
+
+Ctrl+S, Ctrl+X
