@@ -1,3 +1,45 @@
 ollama list: check downloaded models.
 ollama run mistral:latest: to run and download model.
 ollama run llama2:latest: to run and download.
+
+
+
+
+ollama pull gemma4
+ollama run gemma4
+>>> /set parameter num_ctx 32768
+>>> /save gemma4-32k
+>>> /bye
+
+mkdir "%USERPROFILE%\.config\opencode"
+
+notepad "%USERPROFILE%\.config\opencode\opencode.json"
+
+
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (Local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "gemma4-32k": {
+          "name": "Gemma 4 8B (32k Local)",
+          "tool_call": true
+        }
+      }
+    }
+  }
+}
+
+cd C:\path\to\your\coding\project
+opencode
+
+1. Hit / or press Ctrl + P to bring up the command menu.
+
+2. Arrow down to Models.
+
+3. Select Gemma 4 8B (32k Local).

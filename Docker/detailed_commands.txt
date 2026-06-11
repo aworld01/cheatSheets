@@ -7,9 +7,7 @@ email: abdulzoha786@gmail.com
 uname: AbdulZoha786
 PW: Abdul@9368
 
-docker pull hello-world
 docker pull kalilinux/kali-rolling
-
 
 
 Ctrl+D: stop a container.

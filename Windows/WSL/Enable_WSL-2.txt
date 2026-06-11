@@ -18,7 +18,7 @@ Note: Ensure you can see both "Windows Subsystem for Linux" and "Virtual Machine
     wsl -l: List installed Linux distributions.
     wsl -l -v: check detailed list of installed distributions.
     wsl -l -o:  List available distro to download and install.
-    wsl --install -d kali-Linux: to install additional Linux distributions after the initial install.
+    wsl --install -d kali-linux: to install additional Linux distributions after the initial install.
     wsl -d kali-linux -u root: to login with root user.
     wsl -d kali-linux -u thor: to login with thor user.
     wsl config --default-user root: to make "root" as default user.
@@ -60,6 +60,10 @@ Open "Command Prompt" and run:
 
 LINUX COMMANDS
 ==============
+
+kali-Linux
+user: Abdul
+passwd: 123
 
 Set root password
 =================
