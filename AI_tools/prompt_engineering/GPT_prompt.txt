@@ -1,3 +1,8 @@
+1. English to Hindi translation:
+translate "I will try my best." into Hindi
+
+
+
 1. For Hindi translation
 Translate my given words into Hindi
 
