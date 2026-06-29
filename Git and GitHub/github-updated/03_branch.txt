@@ -29,3 +29,26 @@ git branch -d <branchName>: to delete branch. (You can't delete the same branch 
 git branch -D <branchName>: to forcefully delete branch. (it requires if the branch is not merged.)
 
 git push origin --delete <branchName>: remove remote branch.
+
+
+
+
+
+
+Branch renaming
+---------------
+git branch: to check available branch.
+
+git branch -m <newName>: to rename current branch.
+
+git push origin -u <renamedBranch>: to push renamed branch at github.
+
+
+Change the default branch at GitHub:
+-----------------------------------
+Go to your repository: GitHub/Repository/Settings/Branches/Default branch/Change to "main".
+
+
+Now delete the old remote branch:
+---------------------------------
+git push origin --delete <oldBranch>: to delete remote old branch.
