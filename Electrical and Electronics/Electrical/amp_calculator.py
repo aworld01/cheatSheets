@@ -1,14 +1,31 @@
 """
 Power = Watt
 Current = Ampare (I)
-
 R = Resistence (ohm)
 W = Watt
 I = Current (Ampare)
+pf = Power fector
+1.732 = root(3)
+
+DC current
+----------
+I = W/V
+
+AC current (Single phase)
+-------------------------
+I = W/(V*pf)
+
+AC current (Three phase)
+------------------------
+I = W/(root(3)*V*pf)
 
 R = V / I
 W = V * I
-I = W / V
+
+
+
+
+
 """
 
 
@@ -16,9 +33,9 @@ V = int(input("Enter the voltage: "))
 W = int(input("Enter the watt: "))
 
 def electricity(v,w):
-    A = w/v
-    ohm = v/A
     pf = 0.8
+    A = w/(v*pf)
+    ohm = v/A
     ohm =  f"{ohm:.2f}"
     I = f"{A:.2f}"
     I = float(I)

@@ -23,3 +23,37 @@ BOH/CCTV Room, SS1, SS3, SS5, SS7, SS9, TAMA/Electrical Room
 MFACP locations:
 ----------------
 BOH, SS1, SS3
+
+
+
+MassageBox Timing
+-----------------
+09:30AM - 10:30AM
+General Check (Pump, Pool pump)
+
+10:00AM - 11:00AM
+General Check (Chlorin, PH, Cold Water, Hot Water)
+
+11:00AM - 12:00AM
+Water Meter Reading (Caravan)
+
+11:05AM - 12:05PM
+Electric Meter Reading (Caravan)
+
+11:10AM - 12:10PM
+STP Cycle (Caravan)
+
+11:45AM - 12:45PM
+Swimming Pool Chlorin
+
+12:15PM - 01:15PM
+Fire Hydrant Flushing
+
+05:00PM - 06:00PM
+General Check (Pump, Pool pump)
+
+06:00PM - 07:00PM
+Swimming Pool Chlorin
+
+07:00PM - 08:00PM
+Street Light
