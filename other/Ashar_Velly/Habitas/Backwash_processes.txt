@@ -1,0 +1,12 @@
+Backwash (2min)
+1. Open valve
+2. Open drain line
+3. Close motor and Geyser
+4. Switch valve to backwash
+5. Start one motor
+
+Rins (1min)
+6. Stop motor
+7. Switch value to Rins
+8. Start one motor again
+9. After everything finish, switch valve from Rins to Normal close drain valve, close output value, switch on Geyser, switch all motor to auto.

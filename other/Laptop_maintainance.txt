@@ -1,5 +1,0 @@
-Samsung 870 EVO: SATA SSD
-Samsung 980 Pro: M.2 Gen4 nvme ssd
-
-Battary
-Keyboard

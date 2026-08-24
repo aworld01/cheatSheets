@@ -57,3 +57,10 @@ Swimming Pool Chlorin
 
 07:00PM - 08:00PM
 Street Light
+
+
+Cellphone Tower Code
+--------------------
+ZUA907 => Villa: 04
+ZUA916 => SS08
+ZUA925 => Trumpling

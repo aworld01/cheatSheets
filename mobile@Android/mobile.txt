@@ -2,6 +2,27 @@ Network: 5G
 Processor: Snapdragon 7+ Gen3
 RAM: DDR4
 Display: mOLED (120Hz)
-Battery: 6000 mAh
+Battery: 6000mAh
 Charger: 60W
 Camera: Telephoto lens
+
+
+
+Samsung M31 (SM-M315F/DS)
+Processor: Exynos 9611 (Octa-core 2.3GHz + 1.7GHz)
+Camera: 64MP Quad Camera
+Display: 6.4-inch Super AMOLED
+Battery: 6000mAh, 15W Charging
+OS: Android 10 - Android 12 Support
+Resolution: 1080*2340
+Glass: Gorilla Glass 3
+RAM: 6/8GB (LPDDR4x) 4266 Mbps
+Storage: 64/128GB
+Dedicate microSD slot: up to 1TB
+
+
+
+
+
+Latest Processor: Snapdragon 8 Elite Gen5
+Latest RAM: LPDDR6 (14,400 Mbps)

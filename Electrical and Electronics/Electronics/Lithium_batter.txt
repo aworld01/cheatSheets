@@ -1,0 +1,5 @@
+Ampere: 100AH
+Volt: 24V
+Current Rating: 2C
+Smart BMS
+Parallel Connection Support
