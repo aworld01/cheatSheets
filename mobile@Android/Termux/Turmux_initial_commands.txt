@@ -2,13 +2,9 @@ termux-info: Check termux version
 
 termux-setup-storage: give storage permission.
 
-pkg update && pkg upgrade
+pkg update && pkg upgrade -y
 
-apt update && apt upgrade
-
-pkg list
-
-pkg list --upgradeable
+pkg help
 
 source .bashrc: restart '.bashrc' file.
 
