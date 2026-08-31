@@ -1,7 +1,3 @@
-termux-info: Check termux version
-termux-setup-storage: give storage permission
-source .bashrc: restart '.bashrc' file.
-
 pkg install man
 pkg install openssh
 apt install python
@@ -23,13 +19,9 @@ pkg install httrack
 pkg install zsh
 pkg install neofetch
 pkg install fish
-pkg install mariadb
-playstore/termux-api
-pkg update && pkg upgrade
-apt update && apt upgrade
-pkg list
-pkg list --upgradeable
+pkg install MariaDB
 
+playstore/termux-api
 clear
 ls
 mkdir myFolder

@@ -6,7 +6,7 @@ If Git isn’t installed yet:
 2. Set Up Git with Your GitHub Account
 Open Command Prompt or Git Bash and run:
     git config --global user.name "Your GitHub Username"
-    git config --global user.email "your-email@example.com
+    git config --global user.email "your-email@example.com"
     git config --list
 	
 
