@@ -8,6 +8,9 @@ git branch -D main: Delete the old "main" branch with the heavy history.
 
 git branch -m main: Rename your new orphan branch to main.
 
-git push -f: Push the new changes to the remote repository.
-
 git push -f origin main: Push the new changes to the remote repository.
+
+git fetch origin: Download the latest history and changes from GitHub without trying to merge them into your local files.
+
+git reset --hard origin/main:
+	Hard-resets your local main branch to match the remote origin/main precisely, discarding the old local history and aligning it with your clean single-commit structure.
