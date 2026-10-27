@@ -1,0 +1,13 @@
+git checkout --orphan temp_branch: Create a new branch with no parent commit history.
+
+git add .: Stage all current files and commits.
+
+git commit -m "Initial commit": First commit.
+
+git branch -D main: Delete the old "main" branch with the heavy history.
+
+git branch -m main: Rename your new orphan branch to main.
+
+git push -f: Push the new changes to the remote repository.
+
+git push -f origin main: Push the new changes to the remote repository.

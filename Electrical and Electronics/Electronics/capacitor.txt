@@ -1,0 +1,69 @@
+because: 1 second = 1000ms
+So: 20 milliseconds = 0.02 * 1000
+
+
+F = farad
+mF = Millifarad
+µF = microfarad
+nF = nanofarad
+pF = picofarad
+
+mF = 10**-3 F
+µF = 10**-6 F
+nF = 10**-9 F
+pF = 10**-12 F
+
+F = 1000mF
+mf = 1000µF
+µF = 1000nF
+nF = 1000pF
+
+
+f = Frequency
+Hz = hertz
+kHz = kilohertz
+MHz = megahertz
+
+1kHz = 1000Hz
+1MHz = 1000kHz
+
+
+s = second
+ms = milliseconds
+
+1s = 1000ms
+
+
+
+t = Time Period
+V = Voltage
+I = Current
+
+Voltage Calculation:
+    V = 10.4V
+    I = 2A
+
+    14.7V = V*1.414 (with Capacitor)
+    19.11V = 14.7V*1.3 (use Capacitor > 30%)
+
+mF Calculation:
+    s = 1
+    f = 50 Hz
+    
+
+    t = s / f
+    0.02s = 1/50
+    0.02s per cycle and we need only half cycle
+    0.01s = t/2
+
+    dV = 4.3V = 14.7V - 10.4V
+
+    cp = It/dV
+    cp = I*t/dV
+
+    4.65116279 = 2*0.01/4.3
+    
+
+
+
+

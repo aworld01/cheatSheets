@@ -1,0 +1,15 @@
+To avoiding merge commit, we can use "rebase" command.
+NOTE: Don't use "rebase" command with any shared branch.
+
+
+git rebase master
+
+
+
+git rebase --interactive
+------------------------
+-i = --interactive
+r = reword/edit commit massage
+d = drop/delete
+
+git rebase -i <commit-hash>

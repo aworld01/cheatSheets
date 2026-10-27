@@ -1,0 +1,21 @@
+Add “Text Document” directly to the main context menu
+-----------------------------------------------------
+1. Press Win + R → type regedit → Enter.
+
+2. Create the command under Directory\Background\shell:
+    HKEY_CLASSES_ROOT\Directory\Background\shell
+
+3. Right‑click shell → New → Key → name it "Text Document"
+
+4. Inside it, set:
+    Default value = Text Document
+
+5. Create a String Value named "Icon"
+
+6. Set value to: notepad.exe
+
+7. Right‑click the new "Text Document key" → New → Key → name it:
+    "command"
+
+8. Set its Default value to:
+    cmd.exe /c echo.>"%V\New Text Document.txt"

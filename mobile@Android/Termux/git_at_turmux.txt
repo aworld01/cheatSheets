@@ -1,0 +1,59 @@
+apt update && apt upgrade -y
+
+git config --list
+
+git config --global user.name "Your GitHub Username"
+
+git config --global user.email "your-email@example.com
+
+
+
+
+Add your device at GitHub account
+---------------------------------
+
+alias pbcopy=termux-clipboard-set
+
+alias pbpaste=termux-clipboard-get
+
+pkg install openssh: Install 'openssh' if not available.
+
+ls -al .ssh
+
+ssh-keygen -t ed25519 -C "your-email@example.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add .ssh/id_rsa
+
+Goto: github.com/artificialworld09/Settings/SSH and GPG keys/New SSH keys:
+
+Title: Samsung M30
+Key: (paste your SSH key)
+Add SSH key
+
+pdcopy < .ssh/id_rsa.pub
+
+
+
+Create shortcut
+---------------
+    1. Using commandline
+        git config --global alias.st status
+
+    2. Using Editor
+        cd ~
+	ls -a
+	nano .gitconfig
+    	    [user]
+                name = Windows X-lite
+                email = abdulzoha786@gmail.com
+            [alias]
+                st = status
+                ps = push origin master
+                pl = pull origin master
+            [core]
+                editor = code --wait
+
+Ctrl+S, Ctrl+X
+source .bashrc

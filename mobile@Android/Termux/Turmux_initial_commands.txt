@@ -1,0 +1,24 @@
+termux-info: Check termux version.
+
+termux-setup-storage: give storage permission.
+
+apt list --upgradable: to check the list of upgradable packages.
+
+apt autoremove: to remove older package cache.
+
+pkg update && pkg upgrade -y
+
+pkg install git -y: install git.
+
+pkg help
+
+source .bashrc: restart '.bashrc' file.
+
+
+
+Create an alias of Linux command
+cd ~
+nano .bashrc
+    alias gt = 'git'
+
+source .bashrc 

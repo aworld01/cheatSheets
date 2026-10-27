@@ -1,0 +1,13 @@
+1. Open VS-Code and go to 'Extensions (Ctrl+Shift+X)'.
+
+2. Search and install 'Jupyter' (by Microsoft).
+
+3. Search and install 'Colab' (by Google).
+
+4. Go to Explorer (Ctrl+Shift+E) and select any folder.
+
+5. Create a new file with extension '.ipynb'.
+
+6. Go to 'Select Kernal' and Select 'Colab/New Colab Server/GPU/T4/Latest/Give any name/Python 3'
+
+7. !nvidia-smi: to check GPU.
