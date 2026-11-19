@@ -1,0 +1,11 @@
+1. Win+R [regedit]: to open "Registry Editor".
+
+2. Go to "HKEY_CURRENT_USER\Software\Classes\CLSID"
+    writeClick\New\Key\rename as <{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}>
+
+3. writeClick at {86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\New\Key\rename as <InprocServer32>
+
+4. On the right side of the InprocServer32 folder, double-click the (Default) entry. Ensure the "Value data" field is empty (not even a space), and click OK.
+
+5. Open "Command Prompt" as "Run as Administrator" and fire the command below:
+    taskkill /f /im explorer.exe & start explorer.exe

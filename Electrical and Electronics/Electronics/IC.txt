@@ -1,0 +1,14 @@
+Integrated Circuit (IC)
+
+
+Voltage regulator IC:
+    I = 1A
+    V = 25V
+
+    7805: 05V
+    7806: 06V
+    7808: 08V
+    7809: 09V
+    7812: 12V
+    7815: 15V
+    7818: 18V

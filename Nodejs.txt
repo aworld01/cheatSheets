@@ -1,0 +1,2 @@
+node -v # Verify the Node.js version.
+npm -v # Verify npm version.

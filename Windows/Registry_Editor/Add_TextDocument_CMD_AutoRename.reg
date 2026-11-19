@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TextDocument]
+@="Text Document"
+"Icon"="notepad.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TextDocument\command]
+@="cmd.exe /V:ON /c pushd \"%V\" & set base=New Text Document& set ext=.txt& set i=1& if not exist \"%base%%ext%\" (set name=%base%%ext%) else ( :loop if not exist \"%base% (%i%)%ext%\" (set name=%base% (%i%)%ext%) else (set /a i+=1& goto loop) )& echo.>\"%name%\" & popd"

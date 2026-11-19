@@ -1,0 +1,4 @@
+Waree Solar 700W (1400*4): 56000
+Epro Tron 3200: 21000
+Lithium Battery: 65000
+Total: 142,000

@@ -1,0 +1,7 @@
+https://zhu-han.github.io/omnivoice/
+
+1. Go to: https://github.com/NeuralFalconYT/omnivoice-colab
+
+2. Open in colab
+
+3. Save a copy in drive
