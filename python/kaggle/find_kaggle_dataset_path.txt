@@ -1,0 +1,4 @@
+See all attached datasets and their contents
+for root, dirs, files in os.walk('/kaggle/input'):
+    for f in files:
+        print(os.path.join(root, f))
